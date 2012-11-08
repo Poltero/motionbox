@@ -34,3 +34,6 @@ $app->register(new Silex\Provider\DoctrineServiceProvider(), array(
     ),
 ));
 
+//Url Generator
+$app->register(new Silex\Provider\UrlGeneratorServiceProvider());
+
