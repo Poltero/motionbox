@@ -280,74 +280,6 @@
         "homepage": "http://symfony.com"
     },
     {
-        "name": "symfony/http-kernel",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
-        "target-dir": "Symfony/Component/HttpKernel",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/symfony/HttpKernel",
-            "reference": "4dcb0bf602788342fb80c28c6e28be818839d417"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://github.com/symfony/HttpKernel/archive/4dcb0bf602788342fb80c28c6e28be818839d417.zip",
-            "reference": "4dcb0bf602788342fb80c28c6e28be818839d417",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.3.3",
-            "symfony/event-dispatcher": "2.2.*",
-            "symfony/http-foundation": "2.2.*"
-        },
-        "require-dev": {
-            "symfony/browser-kit": "2.2.*",
-            "symfony/class-loader": "2.2.*",
-            "symfony/config": "2.2.*",
-            "symfony/console": "2.2.*",
-            "symfony/dependency-injection": "2.2.*",
-            "symfony/finder": "2.2.*",
-            "symfony/process": "2.2.*",
-            "symfony/routing": "2.2.*"
-        },
-        "suggest": {
-            "symfony/browser-kit": "2.2.*",
-            "symfony/class-loader": "2.2.*",
-            "symfony/config": "2.2.*",
-            "symfony/console": "2.2.*",
-            "symfony/dependency-injection": "2.2.*",
-            "symfony/finder": "2.2.*"
-        },
-        "time": "2012-10-29 10:07:35",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "2.2-dev"
-            }
-        },
-        "installation-source": "source",
-        "autoload": {
-            "psr-0": {
-                "Symfony\\Component\\HttpKernel\\": ""
-            }
-        },
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Fabien Potencier",
-                "email": "fabien@symfony.com"
-            },
-            {
-                "name": "Symfony Community",
-                "homepage": "http://symfony.com/contributors"
-            }
-        ],
-        "description": "Symfony HttpKernel Component",
-        "homepage": "http://symfony.com"
-    },
-    {
         "name": "pimple/pimple",
         "version": "dev-master",
         "version_normalized": "9999999-dev",
@@ -392,86 +324,6 @@
         "keywords": [
             "dependency injection",
             "container"
-        ]
-    },
-    {
-        "name": "silex/silex",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
-        "source": {
-            "type": "git",
-            "url": "git://github.com/fabpot/Silex.git",
-            "reference": "113095184b4537d9bf57acf914ac8e767827943b"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://github.com/fabpot/Silex/archive/113095184b4537d9bf57acf914ac8e767827943b.zip",
-            "reference": "113095184b4537d9bf57acf914ac8e767827943b",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.3.3",
-            "pimple/pimple": "1.*",
-            "symfony/event-dispatcher": ">=2.1,<2.3-dev",
-            "symfony/http-foundation": ">=2.1,<2.3-dev",
-            "symfony/http-kernel": ">=2.1,<2.3-dev",
-            "symfony/routing": ">=2.1,<2.3-dev"
-        },
-        "require-dev": {
-            "monolog/monolog": ">=1.0.0,<1.2-dev",
-            "twig/twig": ">=1.8.0,<2.0-dev",
-            "swiftmailer/swiftmailer": "4.2.*",
-            "doctrine/dbal": ">=2.2.0,<2.4.0-dev",
-            "symfony/security": ">=2.1,<2.3-dev",
-            "symfony/config": ">=2.1,<2.3-dev",
-            "symfony/locale": ">=2.1,<2.3-dev",
-            "symfony/form": ">=2.1,<2.3-dev",
-            "symfony/browser-kit": ">=2.1,<2.3-dev",
-            "symfony/css-selector": ">=2.1,<2.3-dev",
-            "symfony/finder": ">=2.1,<2.3-dev",
-            "symfony/monolog-bridge": ">=2.1,<2.3-dev",
-            "symfony/process": ">=2.1,<2.3-dev",
-            "symfony/translation": ">=2.1,<2.3-dev",
-            "symfony/twig-bridge": ">=2.1,<2.3-dev",
-            "symfony/validator": ">=2.1,<2.3-dev",
-            "symfony/serializer": ">=2.1,<2.3-dev"
-        },
-        "suggest": {
-            "symfony/browser-kit": ">=2.1,<2.3-dev",
-            "symfony/css-selector": ">=2.1,<2.3-dev",
-            "symfony/dom-crawler": ">=2.1,<2.3-dev"
-        },
-        "time": "2012-11-08 17:04:50",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "1.0.x-dev"
-            }
-        },
-        "installation-source": "source",
-        "autoload": {
-            "psr-0": {
-                "Silex": "src/"
-            }
-        },
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Fabien Potencier",
-                "email": "fabien@symfony.com"
-            },
-            {
-                "name": "Igor Wiedler",
-                "email": "igor@wiedler.ch",
-                "homepage": "http://wiedler.ch/igor/"
-            }
-        ],
-        "description": "The PHP micro-framework based on the Symfony2 Components",
-        "homepage": "http://silex.sensiolabs.org",
-        "keywords": [
-            "microframework"
         ]
     },
     {
@@ -588,6 +440,219 @@
         "keywords": [
             "log",
             "logging"
+        ]
+    },
+    {
+        "name": "symfony/twig-bridge",
+        "version": "2.1.x-dev",
+        "version_normalized": "2.1.9999999.9999999-dev",
+        "target-dir": "Symfony/Bridge/Twig",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/TwigBridge",
+            "reference": "6757bc6438a5393ad05a676a2aadb0d5a2084ea0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://github.com/symfony/TwigBridge/archive/6757bc6438a5393ad05a676a2aadb0d5a2084ea0.zip",
+            "reference": "6757bc6438a5393ad05a676a2aadb0d5a2084ea0",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3",
+            "twig/twig": ">=1.9.1,<2.0-dev"
+        },
+        "require-dev": {
+            "symfony/form": "2.1.*",
+            "symfony/routing": "2.1.*",
+            "symfony/templating": "2.1.*",
+            "symfony/translation": "2.1.*",
+            "symfony/yaml": "2.1.*",
+            "symfony/security": "2.1.*"
+        },
+        "suggest": {
+            "symfony/form": "2.1.*",
+            "symfony/routing": "2.1.*",
+            "symfony/templating": "2.1.*",
+            "symfony/translation": "2.1.*",
+            "symfony/yaml": "2.1.*",
+            "symfony/security": "2.1.*"
+        },
+        "time": "2012-11-08 09:51:48",
+        "type": "symfony-bridge",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.1-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Symfony\\Bridge\\Twig": ""
+            }
+        },
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "http://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony Twig Bridge",
+        "homepage": "http://symfony.com"
+    },
+    {
+        "name": "symfony/http-kernel",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "target-dir": "Symfony/Component/HttpKernel",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/HttpKernel",
+            "reference": "8bb110eb5237c524a66ce669d0afb0df78247a67"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://github.com/symfony/HttpKernel/archive/8bb110eb5237c524a66ce669d0afb0df78247a67.zip",
+            "reference": "8bb110eb5237c524a66ce669d0afb0df78247a67",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3",
+            "symfony/event-dispatcher": "2.2.*",
+            "symfony/http-foundation": "2.2.*"
+        },
+        "require-dev": {
+            "symfony/browser-kit": "2.2.*",
+            "symfony/class-loader": "2.2.*",
+            "symfony/config": "2.2.*",
+            "symfony/console": "2.2.*",
+            "symfony/dependency-injection": "2.2.*",
+            "symfony/finder": "2.2.*",
+            "symfony/process": "2.2.*",
+            "symfony/routing": "2.2.*"
+        },
+        "suggest": {
+            "symfony/browser-kit": "2.2.*",
+            "symfony/class-loader": "2.2.*",
+            "symfony/config": "2.2.*",
+            "symfony/console": "2.2.*",
+            "symfony/dependency-injection": "2.2.*",
+            "symfony/finder": "2.2.*"
+        },
+        "time": "2012-11-09 06:36:10",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.2-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Symfony\\Component\\HttpKernel\\": ""
+            }
+        },
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "http://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony HttpKernel Component",
+        "homepage": "http://symfony.com"
+    },
+    {
+        "name": "silex/silex",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "git://github.com/fabpot/Silex.git",
+            "reference": "960f097be06f24d7d112deaa68fa904796435b85"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://github.com/fabpot/Silex/archive/960f097be06f24d7d112deaa68fa904796435b85.zip",
+            "reference": "960f097be06f24d7d112deaa68fa904796435b85",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3",
+            "pimple/pimple": "1.*",
+            "symfony/event-dispatcher": ">=2.1,<2.3-dev",
+            "symfony/http-foundation": ">=2.1,<2.3-dev",
+            "symfony/http-kernel": ">=2.1,<2.3-dev",
+            "symfony/routing": ">=2.1,<2.3-dev"
+        },
+        "require-dev": {
+            "monolog/monolog": ">=1.0.0,<1.2-dev",
+            "twig/twig": ">=1.8.0,<2.0-dev",
+            "swiftmailer/swiftmailer": "4.2.*",
+            "doctrine/dbal": ">=2.2.0,<2.4.0-dev",
+            "symfony/security": ">=2.1,<2.3-dev",
+            "symfony/config": ">=2.1,<2.3-dev",
+            "symfony/locale": ">=2.1,<2.3-dev",
+            "symfony/form": ">=2.1,<2.3-dev",
+            "symfony/browser-kit": ">=2.1,<2.3-dev",
+            "symfony/css-selector": ">=2.1,<2.3-dev",
+            "symfony/finder": ">=2.1,<2.3-dev",
+            "symfony/monolog-bridge": ">=2.1,<2.3-dev",
+            "symfony/process": ">=2.1,<2.3-dev",
+            "symfony/translation": ">=2.1,<2.3-dev",
+            "symfony/twig-bridge": ">=2.1,<2.3-dev",
+            "symfony/validator": ">=2.1,<2.3-dev",
+            "symfony/serializer": ">=2.1,<2.3-dev"
+        },
+        "suggest": {
+            "symfony/browser-kit": ">=2.1,<2.3-dev",
+            "symfony/css-selector": ">=2.1,<2.3-dev",
+            "symfony/dom-crawler": ">=2.1,<2.3-dev"
+        },
+        "time": "2012-11-09 12:34:30",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Silex": "src/"
+            }
+        },
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Igor Wiedler",
+                "email": "igor@wiedler.ch",
+                "homepage": "http://wiedler.ch/igor/"
+            }
+        ],
+        "description": "The PHP micro-framework based on the Symfony2 Components",
+        "homepage": "http://silex.sensiolabs.org",
+        "keywords": [
+            "microframework"
         ]
     }
 ]
