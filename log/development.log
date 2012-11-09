@@ -1,4 +1,0 @@
-[2012-11-09 00:20:23] myapp.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /" (uncaught exception) at D:\Archivos de programa x64\xampp\htdocs\mb\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\EventListener\RouterListener.php line 92 [] []
-[2012-11-09 00:20:23] myapp.INFO: < 404 [] []
-[2012-11-09 00:21:01] myapp.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /" (uncaught exception) at D:\Archivos de programa x64\xampp\htdocs\mb\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\EventListener\RouterListener.php line 92 [] []
-[2012-11-09 00:21:01] myapp.INFO: < 404 [] []
