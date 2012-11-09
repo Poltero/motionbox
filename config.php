@@ -3,7 +3,6 @@
 File configuration application
  * @author: Pablo Fernandez Franco
  * @author web: http://www.pablo-franco.com
- * Please do not remove the credits
 */
 
 //Config Silex

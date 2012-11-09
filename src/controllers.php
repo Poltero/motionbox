@@ -3,7 +3,6 @@
 Controllers of app
  * @author: Pablo Fernandez Franco
  * @author web: http://www.pablo-franco.com
- * Please do not remove the credits
 */
 
 use Symfony\Component\HttpFoundation\Response;
