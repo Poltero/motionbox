@@ -7,10 +7,17 @@ Controllers of app
 
 use Symfony\Component\HttpFoundation\Response;
 
-$app->get('/', function(){
+/*$app->get('/', function(){
     return new Response('Hello world');
-});
+});*/
 
 $app->get('/hello/{name}', function($name) use($app) { 
     return 'Hello '.$app->escape($name);
 });
+
+//Application
+
+$app->get('/', function() use($app){
+    return $app['twig']->render('home.html.twig', array());
+
+})->bind('home');
