@@ -489,18 +489,31 @@
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/HttpFoundation",
+<<<<<<< HEAD
             "reference": "cba106ac4d0a9d9d7c543d4e71acd8e94cefab68"
         },
         "dist": {
             "type": "zip",
             "url": "https://github.com/symfony/HttpFoundation/archive/cba106ac4d0a9d9d7c543d4e71acd8e94cefab68.zip",
             "reference": "cba106ac4d0a9d9d7c543d4e71acd8e94cefab68",
+=======
+            "reference": "61fd9b900ade7c330528767969d2798c031c558a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://github.com/symfony/HttpFoundation/archive/61fd9b900ade7c330528767969d2798c031c558a.zip",
+            "reference": "61fd9b900ade7c330528767969d2798c031c558a",
+>>>>>>> loader-namespaces
             "shasum": ""
         },
         "require": {
             "php": ">=5.3.3"
         },
+<<<<<<< HEAD
         "time": "2012-11-09 13:10:06",
+=======
+        "time": "2012-11-10 18:43:32",
+>>>>>>> loader-namespaces
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -513,7 +526,11 @@
                 "Symfony\\Component\\HttpFoundation\\": ""
             },
             "classmap": [
+<<<<<<< HEAD
                 "Symfony/Component/HttpFoundation/Resources/Resources/stubs"
+=======
+                "Symfony/Component/HttpFoundation/Resources/stubs"
+>>>>>>> loader-namespaces
             ]
         },
         "license": [

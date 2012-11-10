@@ -14,6 +14,7 @@ return array(
     'Symfony\\Bridge\\Twig' => $vendorDir . '/symfony/twig-bridge/',
     'Silex' => $vendorDir . '/silex/silex/src/',
     'Pimple' => $vendorDir . '/pimple/pimple/lib/',
+    'Motionbox\\Dto' => $baseDir . '/src/',
     'Monolog' => $vendorDir . '/monolog/monolog/src/',
     'Doctrine\\DBAL' => $vendorDir . '/doctrine/dbal/lib/',
     'Doctrine\\Common' => $vendorDir . '/doctrine/common/lib/',
