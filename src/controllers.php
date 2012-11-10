@@ -6,6 +6,7 @@ Controllers of app
 */
 
 use Symfony\Component\HttpFoundation\Response;
+use Dto\VideoDTO;
 
 /*$app->get('/', function(){
     return new Response('Hello world');
@@ -23,6 +24,7 @@ $app->get('/', function() use($app){
 })->bind('root');
 
 $app->get('/home', function() use($app){
+    $dto = new VideoDTO();
     return $app['twig']->render('home.html.twig', array('rute' => 'home'));
 
 })->bind('home');
