@@ -23,7 +23,7 @@ $app->get('/', function() use($app){
 })->bind('root');
 
 $app->get('/home', function() use($app){
-    $dto = new Dto\VideoDTO();
+    //$dto = new Dto\VideoDTO();
     return $app['twig']->render('home.html.twig', array('rute' => 'home'));
 
 })->bind('home');
