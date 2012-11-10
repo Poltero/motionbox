@@ -8,7 +8,8 @@
     },
     "autoload": {
         "psr-0": {
-            "Motionbox\\Dto": "src/"
+            "Motionbox\\Dto": "src/",
+            "Motionbox\\Util": "src/"
         }
     }
 }
