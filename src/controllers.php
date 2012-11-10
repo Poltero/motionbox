@@ -6,7 +6,7 @@ Controllers of app
 */
 
 use Symfony\Component\HttpFoundation\Response;
-use Dto\VideoDTO;
+use Motionbox\Dto\VideoDTO;
 
 /*$app->get('/', function(){
     return new Response('Hello world');
