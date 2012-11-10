@@ -18,6 +18,17 @@ $app->get('/hello/{name}', function($name) use($app) {
 //Application
 
 $app->get('/', function() use($app){
-    return $app['twig']->render('home.html.twig', array());
+    return $app->redirect('home');
+
+})->bind('root');
+
+$app->get('/home', function() use($app){
+    return $app['twig']->render('home.html.twig', array('rute' => 'home'));
 
 })->bind('home');
+
+$app->get('/trabajos', function() use($app){
+    return $app['twig']->render('trabajos.html.twig', array('rute' => 'trabajos'));
+
+})->bind('trabajos');
+
