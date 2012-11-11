@@ -11,5 +11,6 @@
             "Motionbox\\Dto": "src/",
             "Motionbox\\Util": "src/"
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
